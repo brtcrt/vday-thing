@@ -12,7 +12,7 @@ const wrapperRect = wrapper.getBoundingClientRect();
 let noBtnRect = no.getBoundingClientRect();
 
 yes.addEventListener("click", () => {
-  window.location.href = "../src/ty.html";
+  window.location.href = "../ty.html";
 });
 
 no.addEventListener("mouseover", () => {
